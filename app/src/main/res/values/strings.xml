@@ -1,0 +1,131 @@
+<resources>
+
+    <string name="app_name">Solar Steps</string>
+    <string name="temperature">Температура:</string>
+    <string name="celsius">Цельсии</string>
+    <string name="c">°C</string>
+    <string name="deg">Градусы</string>
+    <string name="percent">%</string>
+    <string name="rain">Дождь:</string>
+    <string name="rainy">Дождливо</string>
+    <string name="wind">Ветер:</string>
+    <string name="km_h">Km/h</string>
+    <string name="wind_value">Скорость ветра</string>
+    <string name="refresh">Обновить</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temp">24</string>
+    <string name="degree">°C</string>
+    <string name="date">01-01-2017</string>
+    <string name="humidity">Влажность:</string>
+    <string name="pressure">Давление:</string>
+    <string name="pressure_value">Степень давления</string>
+    <string name="humidity_value">Степень влажности</string>
+    <string name="precipitation">Осадки:</string>
+    <string name="precipitation_value">Осадки</string>
+    <string name="today">Сегодня</string>
+    <string name="condition">Облачно</string>
+
+    <string name="notification_subtitle">Подсчёт шагов</string>
+
+    <string name="started">Solar Steps запущен</string>
+    <string name="stopped">Solar Steps остановлен</string>
+
+    <string name="steps">Шаги</string>
+    <string name="kilometers">Километры</string>
+    <string name="miles">Мили</string>
+    <string name="steps_per_minute">Шагов в минуту</string>
+    <string name="kilometers_per_hour">км/ч</string>
+    <string name="miles_per_hour">миль/ч</string>
+    <string name="calories_burned">Сожжено калорий</string>
+    <string name="centimeters">Сантиметры</string>
+    <string name="inches">Дюймы</string>
+    <string name="kilograms">Килограммы</string>
+    <string name="pounds">Пуды</string>
+    <string name="hours">Часы</string>
+
+    <string name="desired_pace">Желаемый темп:</string>
+    <string name="desired_speed">Желаемая скорость:</string>
+
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="reset">Сбросить</string>
+
+    <string name="settings">Настройки</string>
+    <string name="activity_settings">Настройки Solar Steps</string>
+    <string name="steps_settings_title">Стандартные настройки</string>
+    <string name="sensitivity_setting">Чувствительность</string>
+    <string name="sensitivity_setting_details">Калибровка детектора шагов</string>
+    <string name="sensitivity_setting_title">Выбрать уровень чувствительности</string>
+    <string name="extra_high">Ультра большой</string>
+    <string name="very_high">Очень большой</string>
+    <string name="high">Большой</string>
+    <string name="higher">Выше среднего</string>
+    <string name="medium">Средний</string>
+    <string name="lower">Ниже среднего</string>
+    <string name="low">Низкий</string>
+    <string name="very_low">Очень низкий</string>
+    <string name="extra_low">Ультра низкий</string>
+    <string name="operation_level_setting">Операционный уровень</string>
+    <string name="operation_level_setting_details">Некоторые версии ОС запрещают использование сенсоров, когда экран выключен. Выберите уровень, который будет работать у вас</string>
+    <string name="operation_level_setting_title">Выберите операционный уровень</string>
+    <string name="run_in_background">Нормальный (работа в фоне)</string>
+    <string name="keep_screen_on">Включенный экран (оставить экран затемнённым)</string>
+    <string name="wake_up">Агрессивный (пробуждение, когда экран выключен)</string>
+    <string name="units_setting">Система мер</string>
+    <string name="units_setting_details">Метрические или имперские единицы</string>
+    <string name="units_setting_title">Выберите вашу систему мер</string>
+    <string name="units_metric">Метрическая (километры)</string>
+    <string name="units_imperial">Имперская (мили)</string>
+    <string name="city_setting">Местоположение</string>
+    <string name="city_setting_details">Для измерения сожженных калорий в зависимости от температуры</string>
+    <string name="city_setting_title">Введите ваш город (латиница)</string>
+    <string name="sleep_setting">Время сна</string>
+    <string name="sleep_setting_details">Для измерения сожженных калорий</string>
+    <string name="sleep_setting_title">Введите среднее время вашего сна</string>
+    <string name="step_length_setting">Длина шага</string>
+    <string name="step_length_setting_details">Для измерения пройденного расстояния, текущей скорости и сожженных калорий</string>
+    <string name="step_length_setting_title">Введите длину вашего шага</string>
+    <string name="body_weight_setting">Вес</string>
+    <string name="body_weight_setting_details">Для измерения сожженных калорий</string>
+    <string name="body_weight_setting_title">Введите ваш  вес</string>
+    <string name="exercise_type_setting">Тип упражнений</string>
+    <string name="exercise_type_setting_details">Для измерения сожженных калорий</string>
+    <string name="exercise_type_setting_title">Выберите тип упражнений</string>
+    <string name="exercise_type_running">Бег</string>
+    <string name="exercise_type_walking">Ходьба</string>
+    <string name="maintain_setting">Поддерживать темп/скорость</string>
+    <string name="maintain_setting_details">Поддерживать желательно темп/скорость</string>
+    <string name="maintain_setting_title">Поддерживать</string>
+    <string name="maintain_nothing">Ничего</string>
+    <string name="maintain_pace">Темп</string>
+    <string name="maintain_speed">Скорость</string>
+    <string name="voice_settings_title">Синтез речи</string>
+    <string name="voice_setting">Озвучивать</string>
+    <string name="voice_setting_details">Включить/выключить голосовое оповещение</string>
+    <string name="speaking_interval_setting">Интервал</string>
+    <string name="speaking_interval_setting_details">Интервал голосового оповещения</string>
+    <string name="interval_15_seconds">15 секунд</string>
+    <string name="interval_30_seconds">30 секунд</string>
+    <string name="interval_1_minute">1 минута</string>
+    <string name="interval_2_minutes">2 минуты</string>
+    <string name="interval_5_minutes">5 минут</string>
+    <string name="interval_10_minutes">10 минут</string>
+    <string name="tell_what">Что озвучивать</string>
+    <string name="tell_steps_setting">Шаги</string>
+    <string name="tell_steps_setting_details"></string>
+    <string name="tell_pace_setting">Темп</string>
+    <string name="tell_pace_setting_details">Кол-во шагов в минуту</string>
+    <string name="tell_distance_setting">Пройденное расстояние</string>
+    <string name="tell_distance_setting_details">Километры или мили</string>
+    <string name="tell_speed_setting">Скорость</string>
+    <string name="tell_speed_setting_details">км/ч или миль/ч</string>
+    <string name="tell_calories_setting">Сожженно калорий</string>
+    <string name="tell_calories_setting_details"></string>
+    <string name="tell_fasterslower_setting">Быстрее/медленнее</string>
+    <string name="tell_fasterslower_setting_details">Помогает вам поддерживать ваши желательные темп или скорость (интервал указывать не нужно)</string>
+    <string name="incorrect_step_length">Некорректный формат длины шага! Зайдите в настройки, чтобы изменить его!</string>
+
+    <string name="quit">Выход</string>
+
+</resources>

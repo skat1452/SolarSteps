@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/margin"
+    android:background="@color/primary_material_light"
+    tools:context=".Pedometer"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/row_1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/row_spacing">
+
+        <LinearLayout android:id="@+id/box_steps"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingRight="@dimen/margin"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/step_value"
+                android:textSize="@dimen/value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="?android:attr/colorBackground"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:text=""
+                android:textColor="@color/abc_primary_text_material_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="2dp" />
+            <TextView android:id="@+id/step_units"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/units"
+                android:text="Шаги"
+                android:background="@color/background_material_light"
+                android:paddingBottom="@dimen/padding"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/box_distance"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/distance_value"
+                android:textSize="@dimen/value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="?android:attr/colorBackground"
+                android:paddingTop="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingLeft="@dimen/padding"
+                android:textColor="@color/abc_primary_text_material_light"
+                android:elevation="2dp"
+                android:elegantTextHeight="false"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView android:id="@+id/distance_units"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/units"
+                android:text="Километры"
+                android:background="@color/background_material_light"
+                android:paddingBottom="@dimen/padding"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/row_2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/row_spacing">
+
+        <LinearLayout android:id="@+id/box_pace"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/margin"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/pace_value"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/colorBackground"
+                android:textSize="@dimen/small_value"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:text=""
+                android:textColor="@color/abc_primary_text_material_light"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elegantTextHeight="false"
+                android:elevation="2dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TableRow>
+
+            <TextView android:id="@+id/pace_units"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/units"
+                android:text="Шагов в минуту"
+                android:paddingBottom="@dimen/padding"
+                android:background="@color/background_material_light"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:id="@+id/box_speed"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/margin"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/speed_value"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/colorBackground"
+                android:textSize="@dimen/small_value"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:text=""
+                android:textColor="@color/abc_primary_text_material_light"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="2dp" />
+            <TextView android:id="@+id/speed_units"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/units"
+                android:text="км/ч"
+                android:paddingBottom="@dimen/padding"
+                android:background="@color/background_material_light"
+                android:autoText="false" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/box_calories"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/calories_value"
+                android:gravity="bottom|center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/colorBackground"
+                android:textSize="@dimen/small_value"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:textColor="@color/abc_primary_text_material_light"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="2dp" />
+            <TextView android:id="@+id/calories_units"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/units"
+                android:text="Сожженно калорий"
+                android:paddingBottom="@dimen/padding"
+                android:background="@color/background_material_light"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Desired pace/speed row -->
+
+    <LinearLayout
+        android:id="@+id/desired_pace_control"
+        android:paddingTop="@dimen/row_spacing"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_floating_material_light">
+
+        <!-- Button "-", for decrementing desired pace/speed -->
+        <Button android:id="@+id/button_desired_pace_lower"
+            android:text="-"
+            android:textSize="@dimen/button_sign"
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"/>
+
+        <!-- Container for desired pace/speed -->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="@dimen/desired_pace_width"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/desired_pace_label"
+                android:gravity="center_horizontal"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:text="Желательный темп"/>
+
+            <!-- Current desired pace/speed -->
+            <TextView android:id="@+id/desired_pace_value"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/desired_pace"
+                android:layout_width="@dimen/desired_pace_width"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:textColor="@color/abc_primary_text_material_light"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp" />
+
+        </LinearLayout>
+
+        <!-- Button "+", for incrementing desired pace/speed -->
+        <Button android:id="@+id/button_desired_pace_raise"
+            android:text="+"
+            android:textSize="@dimen/button_sign"
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/row_3"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/row_spacing">
+
+        <LinearLayout android:id="@+id/tvt"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingRight="@dimen/margin"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/tvTemperature"
+                android:textSize="@dimen/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="@color/background_material_light"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:text="24"
+                android:textColor="@color/abc_primary_text_material_light"
+                android:layout_gravity="right"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/tvd"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/tvDegree"
+                android:textSize="@dimen/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="@color/background_material_light"
+                android:paddingTop="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/degree"
+                android:textColor="@color/abc_primary_text_material_light"
+                android:elegantTextHeight="false"
+                android:layout_gravity="left"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
