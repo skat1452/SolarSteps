@@ -32,7 +32,7 @@ http://www.nature.com/ejcn/journal/v56/n4/full/1601308a.html
 http://www.wikipedia.com
 
 ### Download
-https://drive.google.com/file/d/0Bxd5UMCC_M7kYi15aTFDakpZalE/view?usp=sharing
+https://drive.google.com/open?id=1nieNtqwYGroBLb31AbQZregRI1Wklg0g
 
 ### Author
-Denis Stukalov, 1 degree DIHT MIPT student
+Denis Stukalov, 2 degree DIHT MIPT student
